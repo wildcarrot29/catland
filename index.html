@@ -6,13 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catland</title>
 </head>
+<style>
+.body {
+    height: 100vh;
+    display: grid;
+    grid-template:"header header" "aside main";
+}
+header {
+    grid-area: header;
+}
+nav {
+    grid-area: aside;
+}
+main {
+    grid-area: main;
+    overflow: scroll;
+}
+</style>
 <body>
-    <ul>
-        <li>
-            <a href="index.html">Home</a></li>
-        <li><a href="About us.html">About us</a></li>
-    </ul>
+    <header>
     <h1>Catland</h1>
+    </header>
+    <nav>
+    
+    </nav>
+    <main></main>
     <hr>
     <h2>A place just for cats</h2>
     <p>This is a space for purrs, cardboard boxes and lots of furry quips away from barking. Please keep dogs away, mice welcome.</p>
